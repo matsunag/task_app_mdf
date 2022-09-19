@@ -20,8 +20,8 @@ table td {
 }
 
 table {
-    position: absolute;
-    top: 150px;
+    position: relative;
+    display:block;
 }
 
 .notice {
@@ -36,4 +36,5 @@ footer {
     border-top: 7px solid orange;
     position: fixed;
     bottom: 0;
+    display:block;
 }

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "users#index"
   get 'users/index'
   get 'tasks/schedule', to: 'tasks#schedule'
   get 'tasks/call', to: 'tasks#call'

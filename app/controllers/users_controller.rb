@@ -14,6 +14,7 @@ class UsersController < ApplicationController
          redirect_to :users
       else
           render "new"
+          flash[:notice] = "エラー"
       end
   end
 
